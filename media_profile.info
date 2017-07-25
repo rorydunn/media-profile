@@ -1,5 +1,5 @@
-; Packaging information for ha
-name = "HA"
+; Packaging information for media_profile
+name = "Media Profile"
 description = "HIMSS Analytics installation profile."
 core = "7.x"
 ; ----------
@@ -71,30 +71,3 @@ dependencies[] = jquery_update
 ; Views
 dependencies[] = views
 dependencies[] = views_ui
-; Features
-dependencies[] = features
-dependencies[] = content_type_board_member
-dependencies[] = content_type_carousel_image
-dependencies[] = content_type_emram_model
-dependencies[] = content_type_event
-dependencies[] = content_type_healthcare_provider
-dependencies[] = content_type_highlighted_block
-dependencies[] = content_type_intelligence_roadmap
-dependencies[] = content_type_news
-dependencies[] = content_type_page
-dependencies[] = content_type_resource
-dependencies[] = content_type_speaker
-dependencies[] = ha_core
-dependencies[] = ha_field_bases
-dependencies[] = ha_site_configuration
-dependencies[] = ha_theme_settings
-dependencies[] = ha_footer_menu
-dependencies[] = ha_main_menu
-dependencies[] = ha_user_menu
-dependencies[] = header_menu
-dependencies[] = ha_menu_block_settings
-dependencies[] = join_ha_block
-dependencies[] = ha_regions_jump_menu
-dependencies[] = pcha_text_formats
-; Custom
-dependencies[] = ha_custom

@@ -4,7 +4,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function ha_install() {
+function media_profile_install() {
   // Enable some ha blocks.
   $default_theme = 'halliance';
   $admin_theme = 'seven';
