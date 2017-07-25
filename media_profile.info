@@ -1,0 +1,100 @@
+; Packaging information for ha
+name = "HA"
+description = "HIMSS Analytics installation profile."
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Features extra
+dependencies[] = fe_block
+; Fields
+dependencies[] = bundle_copy
+dependencies[] = conditional_fields
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = link
+; Media
+dependencies[] = imce
+; Other
+dependencies[] = entity
+dependencies[] = menu_attributes
+dependencies[] = menu_clone
+dependencies[] = menu_token
+dependencies[] = multiblock
+dependencies[] = pathauto
+dependencies[] = special_menu_items
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = uuid
+; User interface
+dependencies[] = ckeditor
+dependencies[] = jquery_update
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+dependencies[] = content_type_board_member
+dependencies[] = content_type_carousel_image
+dependencies[] = content_type_emram_model
+dependencies[] = content_type_event
+dependencies[] = content_type_healthcare_provider
+dependencies[] = content_type_highlighted_block
+dependencies[] = content_type_intelligence_roadmap
+dependencies[] = content_type_news
+dependencies[] = content_type_page
+dependencies[] = content_type_resource
+dependencies[] = content_type_speaker
+dependencies[] = ha_core
+dependencies[] = ha_field_bases
+dependencies[] = ha_site_configuration
+dependencies[] = ha_theme_settings
+dependencies[] = ha_footer_menu
+dependencies[] = ha_main_menu
+dependencies[] = ha_user_menu
+dependencies[] = header_menu
+dependencies[] = ha_menu_block_settings
+dependencies[] = join_ha_block
+dependencies[] = ha_regions_jump_menu
+dependencies[] = pcha_text_formats
+; Custom
+dependencies[] = ha_custom
