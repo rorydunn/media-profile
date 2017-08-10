@@ -1,6 +1,6 @@
 ; Packaging information for media_profile
 name = "Media Profile"
-description = "HIMSS Analytics installation profile."
+description = "Media Site installation profile."
 core = "7.x"
 ; ----------
 ; Dependencies
